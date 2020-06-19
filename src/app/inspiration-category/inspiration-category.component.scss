@@ -1,0 +1,32 @@
+$gray: #6d7a8a;
+$green: #489f9f;
+
+.inspiration-category {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  &__title {
+    color: $gray;
+    margin-bottom: 70px;
+    text-align: center;
+  }
+  &-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__item {
+      font-weight: bold;
+      color: $gray;
+      cursor: pointer;
+    }
+  }
+  &-articles {
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

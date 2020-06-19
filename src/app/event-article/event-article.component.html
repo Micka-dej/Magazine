@@ -1,0 +1,37 @@
+<a routerLink="/event-article-page">
+  <article class="eventArticle">
+    <div
+      class="eventArticle-header"
+      [ngStyle]="{
+        'background-image': 'url(' + backgroundUrl + ')'
+      }"
+    ></div>
+    <div class="eventArticle-contain">
+      <h5 class="eventArticle-contain__title">{{ title }}</h5>
+      <h4 class="eventArticle-contain__subTitle">{{ subTitle }}</h4>
+      <hr class="eventArticle-contain__hr" />
+      <p class="eventArticle-contain__text">
+        {{ text }}
+      </p>
+      <div class="eventArticle-buttons">
+        <button class="eventArticle-buttons-item">Gratuit</button>
+        <button class="eventArticle-buttons-item">Concert</button>
+      </div>
+      <div class="eventArticle-contain-footer">
+        <div class="eventArticle-contain-footer-place">
+          <mat-icon
+            class="eventArticle-contain-footer-place__icon"
+            [ngStyle]="{ color: '#489f9f' }"
+            >place
+          </mat-icon>
+          <span class="eventArticle-contain-footer-place__text">{{
+            place
+          }}</span>
+        </div>
+        <span class="eventArticle-contain-footer-place__text">{{
+          remainingTime
+        }}</span>
+      </div>
+    </div>
+  </article>
+</a>

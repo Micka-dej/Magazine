@@ -1,0 +1,31 @@
+<a routerLink="/article-page">
+  <article class="inspirationArticle">
+    <div
+      class="inspirationArticle-header"
+      [ngStyle]="{
+        'background-image': 'url(' + backgroundUrl + ')'
+      }"
+    ></div>
+    <div class="inspirationArticle-contain">
+      <h4 class="inspirationArticle-contain__title">{{ title }}</h4>
+      <p class="inspirationArticle-contain__text">
+        {{ text }}
+      </p>
+      <div class="inspirationArticle-contain-footer">
+        <span class="inspirationArticle-contain-footer__publish">{{
+          publishDate
+        }}</span>
+        <div class="inspirationArticle-contain-footer-time">
+          <mat-icon
+            class="inspirationArticle-contain-footer-time__icon"
+            [ngStyle]="{ color: '#6d7a8a' }"
+            >access_time</mat-icon
+          >
+          <span class="inspirationArticle-contain-footer-time__text">{{
+            remainingTime
+          }}</span>
+        </div>
+      </div>
+    </div>
+  </article>
+</a>

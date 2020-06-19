@@ -1,0 +1,18 @@
+<section
+  class="articles"
+  [ngStyle]="{
+    'flex-direction': direction
+  }"
+>
+  <div class="articles-contain">
+    <h2 class="articles-contain__title">{{ title }}</h2>
+    <p class="articles-contain__text">{{ text }}</p>
+    <button class="articles-contain__button">{{ button }}</button>
+  </div>
+  <div
+    [ngStyle]="{
+      'background-image': 'url(' + backgroundUrl + ')'
+    }"
+    class="articles-image"
+  ></div>
+</section>

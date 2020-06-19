@@ -1,0 +1,36 @@
+$gray: #6d7a8a;
+$green: #489f9f;
+$white: #ffffff;
+
+.simpleArticle {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  &-header {
+    width: 100%;
+    background-size: cover;
+  }
+  &-contain {
+    padding: 10px;
+    background-color: $white;
+    &__title {
+      color: $green;
+    }
+    &__text {
+      color: $gray;
+    }
+    &-footer {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      &__publish {
+        color: $green;
+      }
+      &__more {
+        color: $green;
+        font-weight: bold;
+      }
+    }
+  }
+}

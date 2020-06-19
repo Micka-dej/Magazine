@@ -1,0 +1,44 @@
+$gray: #6d7a8a;
+$green: #489f9f;
+
+hr {
+  height: 15px;
+  margin-right: 15px;
+  color: $gray;
+}
+
+.header {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 20px;
+  &-nav {
+    width: 50%;
+    float: right;
+    &-list {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      list-style: none;
+      &-item {
+        display: flex;
+        align-items: center;
+        &__link {
+          text-decoration: none;
+          color: $gray;
+        }
+        &__icon {
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .header {
+    display: none;
+  }
+}

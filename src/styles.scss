@@ -1,0 +1,15 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+$gray: #6d7a8a;
+$green: #489f9f;
+
+h1 {
+  color: $gray;
+}

@@ -1,0 +1,31 @@
+$gray: #6d7a8a;
+
+.event {
+  &-title {
+    color: $gray;
+    text-align: center;
+  }
+  &-articles {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    &-item {
+      width: 25%;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .event-articles {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1024px) {
+  .event-articles-item {
+    width: 100%;
+  }
+}

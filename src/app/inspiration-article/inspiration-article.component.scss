@@ -1,0 +1,50 @@
+$gray: #6d7a8a;
+$green: #489f9f;
+$white: #ffffff;
+
+a {
+  text-decoration: none;
+}
+
+.inspirationArticle {
+  width: 270px;
+  height: 270px;
+  cursor: pointer;
+  &-header {
+    width: 100%;
+    background-size: cover;
+    height: 150px;
+  }
+  &-contain {
+    height: 120px;
+    padding: 10px;
+    background-color: $white;
+    margin-top: -20px;
+    &__title {
+      color: $green;
+      margin: 0;
+    }
+    &__text {
+      color: $gray;
+      font-weight: bold;
+    }
+    &-footer {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      &__publish {
+        color: $gray;
+      }
+      &-time {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__text {
+          color: $gray;
+          padding-left: 10px;
+        }
+      }
+    }
+  }
+}
