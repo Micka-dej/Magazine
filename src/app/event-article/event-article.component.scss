@@ -1,7 +1,9 @@
-$gray: #6d7a8a;
+$gray: #929FB1;
+$title: #404B5A;
 $green: #489f9f;
 $white: #ffffff;
-$lightGray: #dcdcdc;
+$lightGray: #f0f0f0;
+$border : #E1E7EC;
 
 a {
   text-decoration: none;
@@ -9,31 +11,41 @@ a {
 
 .eventArticle {
   height: 350px;
-  padding: 30px;
-  margin: 40px 0px 40px 0px;
+  margin: 60px 30px 60px 30px;
   cursor: pointer;
+  transition: 0.7s !important;
+  &:hover{
+    transform: scale(1.01);
+  }
   &-header {
+    background-position: center;
     width: 100%;
     background-size: cover;
     height: 120px;
   }
   &-contain {
-    height: 240px;
+    height: 250px;
     padding: 10px;
     background-color: $white;
     margin-top: -20px;
-    border: 1px solid $lightGray;
+    border: 0.5px solid $lightGray;
     &__title {
       color: $green;
+      font-weight: bold;
       margin: 0;
+      margin-top: 10px;
     }
     &__subTitle {
-      color: $gray;
+      color: $title;
+      font-weight: 500;
+      margin: 0;
+      margin-top: 10px;
     }
     &__hr {
       background-color: $lightGray;
       color: $lightGray;
       height: 1px;
+      margin-top: 15px;
       border-width: 0;
       width: 90%;
     }
@@ -41,7 +53,8 @@ a {
       padding: 10px 0px 10px 0px;
       color: $gray;
       font-weight: lighter;
-      font-size: 13px;
+      line-height: 1.5;
+      font-size: 12px;
     }
     &-footer {
       width: 100%;
@@ -65,11 +78,11 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
     &-item {
       color: $white;
       background-color: $green;
-      font-weight: bold;
+      font-weight: 500;
       width: 70px;
       font-size: 12px;
       padding: 5px 10px 5px 10px;
