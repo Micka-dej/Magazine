@@ -11,23 +11,38 @@
     grid-gap: 15px;
     padding-top: 50px;
     &__item1 {
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02), 0 2px 6px rgba(0, 0, 0, 0.02);
+      transition: 0.6s;
       grid-column: 1/2;
       grid-row: 1/5;
+      &:hover {
+        transform: scale(1.01);
+        }
     }
-    &__item2 {
-      background: no-repeat
-        url("https://corse-matin-bucket.s3.eu-west-3.amazonaws.com/article/48066/lg_02d209b5e69e5e5d209b5e69ec9d20v_.jpg");
-      background-size: cover;
-      grid-column: 2/4;
-      grid-row: 1/3;
-    }
+    // &__item2 {
+    //   background: no-repeat
+    //     url("https://corse-matin-bucket.s3.eu-west-3.amazonaws.com/article/48066/lg_02d209b5e69e5e5d209b5e69ec9d20v_.jpg");
+    //   background-size: cover;
+    //   grid-column: 2/4;
+    //   grid-row: 1/3;
+    // }
     &__item3 {
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02), 0 2px 6px rgba(0, 0, 0, 0.02);
+      transition: 0.6s;
       grid-column: 2/3;
-      grid-row: 3/5;
+      grid-row: 1/5;
+      &:hover {
+        transform: scale(1.01);
+        }
     }
     &__item4 {
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02), 0 2px 6px rgba(0, 0, 0, 0.02);
+      transition: 0.6s;
       grid-column: 3/4;
-      grid-row: 3/5;
+      grid-row: 1/5;
+      &:hover {
+        transform: scale(1.01);
+        }
     }
   }
 }

@@ -1,5 +1,6 @@
-$gray: #6d7a8a;
+$gray: #929fb1;
 $green: #489f9f;
+$title: #404B5A;
 
 .inspiration-category {
   width: 80%;
@@ -7,14 +8,15 @@ $green: #489f9f;
   margin-right: auto;
   margin-top: 100px;
   &__title {
-    color: $gray;
+    color: $title;
     margin-bottom: 70px;
     text-align: center;
   }
   &-list {
+    padding-inline-start: 0px;
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     &__item {
       font-weight: bold;

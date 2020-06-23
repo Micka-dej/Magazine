@@ -1,5 +1,5 @@
-$gray: #6d7a8a;
-$green: #489f9f;
+$gray: #9FABBA;
+$green: #329494;
 $white: #ffffff;
 
 .articles {
@@ -9,14 +9,18 @@ $white: #ffffff;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 132px;
   &-contain {
     width: 45%;
     &__title {
       color: $green;
     }
     &__text {
+      padding-bottom: 20px;
       color: $gray;
+      font-size: 16px;
+      font-weight: lighter;
+      line-height: 1.5;
     }
     &__button {
       color: $white;
@@ -31,9 +35,11 @@ $white: #ffffff;
     }
   }
   &-image {
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.03), 0px 0px 5px 1px rgba(0, 0, 0, 0.03);
     width: 45%;
     height: 270px;
-    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     border-radius: 5px;
   }
 }

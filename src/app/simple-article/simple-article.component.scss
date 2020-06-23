@@ -1,8 +1,9 @@
-$gray: #6d7a8a;
-$green: #489f9f;
+$gray: #929fb1;
+$green: #329494;
 $white: #ffffff;
 
 .simpleArticle {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02), 0 2px 6px rgba(0, 0, 0, 0.02);
   width: 100%;
   height: 100%;
   cursor: pointer;
@@ -15,21 +16,32 @@ $white: #ffffff;
     background-color: $white;
     &__title {
       color: $green;
+      font-weight: bold;
+      font-size: 18px;
+      margin: 0;
+      padding: 15px 0px 0px 0px;
     }
     &__text {
-      color: $gray;
+      padding: 0px 0px 10px 0px;
+      color: #929FB1;
+      font-weight: lighter;
+      line-height: 1.5;
+      font-size: 14px;
     }
     &-footer {
+      margin-top: 30px;
       width: 100%;
       display: flex;
       justify-content: space-between;
-      align-items: center;
       &__publish {
         color: $green;
+        font-size: 14px;
+        font-weight: 400;
       }
       &__more {
-        color: $green;
-        font-weight: bold;
+        font-style: normal;
+        margin-right: 10px;
+        color: #dedede;
       }
     }
   }
