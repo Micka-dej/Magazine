@@ -11,6 +11,11 @@
     <li class="inspiration-category-list__item">Et ailleurs ?</li>
   </ul>
   <div class="inspiration-category-articles">
+    <mat-icon
+          class="inspiration-category-articles__icon"
+          [ngStyle]="{ color: '#489f9f' }"
+          >keyboard_arrow_left</mat-icon
+        >
     <app-inspiration-article
       title="Mode"
       text="In the tumultuous business of cutting-in and attending to a whale..."
@@ -39,5 +44,10 @@
       backgroundUrl="https://i.pinimg.com/originals/76/67/fc/7667fce3751a415ad38de39b60510787.jpg"
       remainingTime="4 min"
     ></app-inspiration-article>
+    <mat-icon
+    class="inspiration-category-articles__icon"
+    [ngStyle]="{ color: '#489f9f' }"
+    >keyboard_arrow_right</mat-icon
+  >
   </div>
 </section>

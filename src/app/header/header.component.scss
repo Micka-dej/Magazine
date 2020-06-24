@@ -1,5 +1,5 @@
 $gray: #6d7a8a;
-$green: #489f9f;
+$green: #329494;
 
 hr {
   height: 15px;
@@ -30,6 +30,7 @@ hr {
           color: $gray;
         }
         &__icon {
+          cursor: pointer;
           margin-left: 10px;
         }
       }

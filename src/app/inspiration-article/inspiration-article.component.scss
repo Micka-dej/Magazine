@@ -1,5 +1,5 @@
 $gray: #929fb1;
-$green: #489f9f;
+$green: #329494;
 $white: #ffffff;
 $title: #404B5A;
 
@@ -11,7 +11,7 @@ a {
   width: 270px;
   height: 270px;
   cursor: pointer;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02), 0 2px 6px rgba(0, 0, 0, 0.02);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.01), 0 2px 6px rgba(0, 0, 0, 0.01);
   transition: 0.6s;
   &:hover {
     transform: scale(1.01);
@@ -32,12 +32,12 @@ a {
       padding: 10px 0px 0px 0px;
     }
     &__text {
-      color: $gray;
+      color: $title;
       line-height: 1.5;
       font-size: 14px;
-      font-weight: normal;
+      font-weight: 400;
       margin: 0;
-      padding: 10px 0px 20px 0px;
+      padding: 10px 0px 25px 0px;
     }
     &-footer {
       align-items: center;
@@ -50,17 +50,16 @@ a {
         color: $gray;
       }
       &-time {
-        align-items: center;
         font-size: 14px;
         font-weight: lighter;
         display: flex;
         justify-content: space-between;
         &__text {
+          align-items: center;
           color: $gray;
-          padding-left: 10px;
         }
         &__icon {
-
+        font-size: 15px;
         }
       }
     }
