@@ -11,7 +11,7 @@ a {
   width: 270px;
   height: 270px;
   cursor: pointer;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.01), 0 2px 6px rgba(0, 0, 0, 0.01);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.02), 0 8px 32px rgba(0, 0, 0, 0.02);
   transition: 0.6s;
   &:hover {
     transform: scale(1.01);
@@ -19,13 +19,12 @@ a {
   &-header {
     width: 100%;
     background-size: cover;
-    height: 140px;
+    height: 120px;
   }
   &-contain {
     height: 120px;
     padding: 10px;
     background-color: $white;
-    margin-top: -20px;
     &__title {
       color: $green;
       margin: 0;
@@ -65,3 +64,10 @@ a {
     }
   }
 }
+
+@media (max-width: 1268px) { 
+.inspirationArticle {
+  width: auto;
+  margin-bottom: 50px;
+}
+}  

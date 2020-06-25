@@ -36,3 +36,11 @@ $title: #404B5A;
     }
   }
 }
+@media (max-width: 1268px) {
+.inspiration-category-articles {
+    display: inline-block;
+    &__icon {
+      display: none;
+    }
+  }
+}

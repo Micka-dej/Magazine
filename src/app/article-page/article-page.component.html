@@ -1,7 +1,7 @@
 <section class="article">
   <div class="article-header">
     <a routerLink="/"
-      ><mat-icon [ngStyle]="{ color: '#489f9f' }"
+      ><mat-icon class="article-header__arrow" [ngStyle]="{ color: '#489f9f' }"
         >keyboard_arrow_left</mat-icon
       ></a
     >
@@ -22,7 +22,7 @@
       laquelle les utilisateurs d’un logiciel ou d’un site Internet vont
       interagir, et qui apparaît sur leur écran.
     </h3>
-    <hr />
+    <hr class="article-contain__hr" />
     <h3 class="article-contain__subTitle">Le front-end</h3>
     <p class="article-contain__text">
       En tant que grand adepte des mathématiques, j’ai commencé à coder sur un
@@ -58,20 +58,21 @@
   <hr class="article-similary__hr" />
   <div class="article-similary">
     <app-inspiration-article
-      title="Inspiration"
+      title="Actualité"
       text="Développeur back-end, la technique derrière l'interface"
       publishDate="16 mars 2020"
       backgroundUrl="https://www.lg.com/uk/images/TV/features/TV-SIGNATURE-OLED-Z9-11-1-8K-HDR-Dolby-Vision-Desktop.jpg"
+      remainingTime="7 min"
     ></app-inspiration-article>
     <app-inspiration-article
-      title="Inspiration"
-      text="Développeur back-end, la technique derrière l'interface"
+      title="Mode"
+      text="La nouvelle tendance pour les hommes"
       publishDate="16 mars 2020"
       backgroundUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRl6t4N7S4P79TClafxCUn-qroiKE-EaIU-ng&usqp=CAU"
-      remainingTime="4 min"
+      remainingTime="20 min"
     ></app-inspiration-article>
     <app-inspiration-article
-      title="Inspiration"
+      title="Bonne adresse"
       text="Développeur back-end, la technique derrière l'interface"
       publishDate="16 mars 2020"
       backgroundUrl="https://images.unsplash.com/photo-1544614342-c48ab91d79fc?ixlib=rb-1.2.1&w=1000&q=80"
@@ -79,7 +80,7 @@
     ></app-inspiration-article>
     <app-inspiration-article
       title="Inspiration"
-      text="Développeur back-end, la technique derrière l'interface"
+      text="Des idées de coupe de cheveux innovante"
       publishDate="16 mars 2020"
       backgroundUrl="https://images.unsplash.com/photo-1544614342-c48ab91d79fc?ixlib=rb-1.2.1&w=1000&q=80"
       remainingTime="4 min"
