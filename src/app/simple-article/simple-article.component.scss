@@ -11,7 +11,8 @@ $white: #ffffff;
   }
   &-header {
     width: 100%;
-    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
   }
   &-contain {
     padding: 10px;

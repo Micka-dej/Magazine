@@ -19,6 +19,7 @@ a {
   &-header {
     width: 100%;
     background-size: cover;
+    background-repeat: no-repeat;
     height: 120px;
   }
   &-contain {
@@ -65,9 +66,21 @@ a {
   }
 }
 
-@media (max-width: 1268px) { 
+@media (max-width: 1024px) { 
 .inspirationArticle {
   width: auto;
   margin-bottom: 50px;
 }
-}  
+}
+
+@media screen and (min-width: 769px) and (max-width: 1100px) {
+  .inspirationArticle {
+    width: 250px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .article-similary :nth-child(2) {
+    display: none;
+  }
+}

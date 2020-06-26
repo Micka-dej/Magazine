@@ -71,7 +71,7 @@ $black: #404B5A;
   }
 }
 
-@media (max-width: 1268px) {
+@media (max-width: 768px) {
 .article {
   &-contain {
     width: 100%;
@@ -86,4 +86,16 @@ $black: #404B5A;
   width: 100%;  
   }
 }
+}
+
+@media (max-width: 950px) {
+  .article-similary :nth-child(3) {
+    display: none;
+  }
+}
+
+@media (max-width: 1440px) {
+  .article-similary :nth-child(2) {
+    display: none;
+  }
 }
